@@ -1,0 +1,162 @@
+BODY {font-family:Oswald; font-weight: 200;font-size: 20px; color: black}
+H1 {font-family:Oswald; font-weight: 200;font-size: 45px;color:green}
+H2 {font-weight: 200;font-size: 20px;font-family: Oswald;}
+H3 {font-weight: 200;font-size: 30px;font-family: Oswald;color: black}
+H4 {font-family:Oswald; font-weight: 200;font-size: 20px ;color:black}
+H5 {font-family:Oswald; font-weight: 200;font-size: 15px ;color:black}
+H8 {font-family:Oswald; font-weight: 200;font-size: 20px ;color:black}
+H9 {font-family:Oswald; font-weight: 200;font-size: 2px ;color:white}
+opiszdjecia {font-family:Oswald; font-weight: 200;font-size: 25px ;color:black}
+Tytul {font-weight: 200;font-size: 25px;font-family: Oswald;color: black}
+Tytsum {font-family:Oswald; font-weight: 600;font-size: 22px ;color:black}
+Bullred {font-family:Oswald; font-weight: 800;font-size: 30px ;color:red}
+Bullgreen {font-family:Oswald; font-weight: 800;font-size: 30px ;color:#cb24e9}
+Bullblue {font-family:Oswald; font-weight: 800;font-size: 30px ;color:blue}
+.main {
+  padding: 5px;
+  margin-top: 40px;
+  margin-left: 4px;
+  margin-right: 4px;
+  margin-bottom: 10px;
+  }
+  .navbar1 {
+  overflow: hidden;
+  background-color: #ddf;
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  top: 40px;
+  width: 100%;
+  justify-content: space-between;
+  z-index: 999;
+  float: center;
+  display: block;
+  color: #666666;
+  text-align: center;
+  padding: 1px 1px;
+  text-decoration: none;
+  font-size: 20px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.navbar1 a:hover {
+  background: #ddd;
+  color: blue;
+}
+  .navbar {
+  overflow: hidden;
+  background-color: #ffc;
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  width: 100%;
+  justify-content: space-between;
+  z-index: 999
+  float: left;
+  display: block;
+  color: #666666;
+  text-align: center;
+  padding: 1px 1px;
+  text-decoration: none;
+  font-size: 24px;
+
+}
+.navbar a:hover {
+  background: #ddd;
+  color: blue;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: blue;
+}
+
+.mailbox {
+    height: 30px;
+  padding: 3px; 
+  background-color: #ffc;
+  font-size: 16px;
+}
+#article {
+	font-size: 27px;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: auto;
+	}
+#trzyobrazy div img {
+   width: 30%;
+   margin: 1%;
+   }
+ #dwaobrazy div img {
+   width: 45%;
+   margin: 1%;
+   }
+#logo div img {
+    width: 80%;
+   margin-left: 5%;
+   margin-right: 5%;
+    margin-top: 3px;
+   
+   }
+
+#cecha {
+  padding: 0.8em;
+  
+  font-family: Oswald; font-weight: 200;font-size: 22px;color: black
+  
+  }
+.css_anchor_gallery {
+width: 600px;    
+overflow: hidden;
+padding: 3px 0;
+}
+.css_anchor_gallery .pictures_ {
+list-style-type: none;
+height: 730px; /* wysokosc najwyzszego zdjecia + ewentualnego opisu lub innych elementow */
+width: 700px; /* szerokosc najszerszego zdjecia */
+overflow: hidden;
+float: left;
+margin: 0;
+padding: 0;
+text-align: left;
+}
+.css_anchor_gallery .pictures_ li {
+margin: 0;
+padding: 0 0 20000px 0;
+background: none;
+}
+.css_anchor_gallery .pictures_ li p {
+padding: 0 5px;
+}
+.css_anchor_gallery img {
+border: 1px solid #000;
+}
+.css_anchor_gallery .thumbnails_ {
+list-style-type: none;
+width: 120px;
+overflow: auto;
+height: 700px;
+float: center;
+padding: 0;
+margin: 5px 0 0 2px;
+}
+.css_anchor_gallery .thumbnails_ li {
+margin: 5px 0;
+background: none;
+padding: 0;
+}
+.css_anchor_gallery .thumbnails_ li:first-child {
+margin: 0 0 30px 0;    
+}
+.css_anchor_gallery a {
+display: inline;
+width: 100px;
+height: 85px;
+}
+.css_anchor_gallery a img {
+height: 80px;
+width: 96px;
+margin: 0;
+}

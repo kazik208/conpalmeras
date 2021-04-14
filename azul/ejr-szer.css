@@ -1,0 +1,262 @@
+BODY {font-family:Oswald; font-weight: 200;font-size: 10px; color: black}
+H1 {font-family:Oswald; font-weight: 200;font-size: 40px;color:green}
+H2 {font-weight: 200;font-size: 20px;font-family: Oswald;}
+H3 {font-weight: 200;font-size: 20px;font-family: Oswald;color: black}
+H4 {font-family:Oswald; font-weight: 200;font-size: 13px ;color:black}
+H5 {font-family:Oswald; font-weight: 200;font-size: 14px ;color:black}
+H8 {font-family:Oswald; font-weight: 200;font-size: 18px ;color:black}
+H9 {font-family:Oswald; font-weight: 200;font-size: 20px ;color:white}
+
+opiszdjecia {font-family:Oswald; font-weight: 200;font-size: 18px ;color:black}
+Tytul {font-weight: 200;font-size: 25px;font-family: Oswald;color: black}
+Nav {font-family:Oswald; font-weight: 200;font-size: 30px ;color:red}
+Tytsum {font-family:Oswald; font-weight: 400;font-size: 14px ;color:black}
+Bullred {font-family:Oswald; font-weight: 800;font-size: 30px ;color:red}
+Bullgreen {font-family:Oswald; font-weight: 800;font-size: 30px ;color:#cb24e9}
+Bullblue {font-family:Oswald; font-weight: 800;font-size: 30px ;color:blue}
+
+
+.container {
+  margin: auto;
+  max-width: 800px;
+}
+
+.main {
+  padding: 10px;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1000px}
+.navbar1 {
+  overflow: hidden;
+  background-color: #ddf;
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  top: 28px;
+  width: 100%;
+  justify-content: space-between;
+  z-index: 999;
+  float: center;
+  display: block;
+  color: #666666;
+  text-align: center;
+  padding: 1px 1px;
+  text-decoration: none;
+  font-size: 15px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.navbar1 a:hover {
+  background: #ddd;
+  color: blue;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #ffc;
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  width: 100%;
+  justify-content: space-between;
+  z-index: 999
+  float: left;
+  display: block;
+  color: #666666;
+  text-align: center;
+  padding: 1px 1px;
+  text-decoration: none;
+  font-size: 15px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.navbar a:hover {
+  background: #ddd;
+  color: blue;
+}
+.flagi{
+	 font-size: 18px;
+display: flex; 
+justify-content: space-between	
+	
+}
+.mailbox {
+  
+  height: 30px;
+  padding: 3px; 
+  background-color: #ffc;
+  font-size: 18px;
+}
+#opinia {
+	 color:green;
+ width: 700px;
+  font-weight: 200;
+  font-size: 18px;
+  padding-top: 20px;
+  padding-left: 20px;
+ 
+}
+#podpis {
+	font-weight: 200;
+	font-size: 15px;
+  padding-right: 250px;
+  float: right;
+}
+#powrot {
+	color: red;
+	font-weight: 100;
+	font-size: 15px;
+ 
+  float: left;
+}
+#opis #lewa-kolumna {
+  font-weight: 200;
+  font-size: 18px;
+  box-sizing: border-box;
+  padding-right: 5px;
+}
+#dwie-kolumny #lewa-kolumna {
+  float: left;
+ padding: 2px;  
+  font-weight: 200;
+  width: 49%;
+  font-size: 18px;
+  box-sizing: border-box;
+  padding-right: 5px;
+}
+
+#dwie-kolumny #prawa-kolumna {
+  float:right;
+  padding: 2px;
+  width: 49%;
+  box-sizing: border-box;
+  font-weight: 200;
+  font-size: 18px;
+  
+}
+#dwie-kolumny br {
+  clear: both;
+}
+
+#summary #lewy {
+  float: left; 
+  font-weight: 200;
+  width: 49%;
+  font-size: 12px;
+  box-sizing: border-box;
+  padding-right: 2px;
+}
+
+#summary #prawy {
+  float:right;
+   font-weight: 200;
+  width: 49%;
+  font-size: 12px;
+  box-sizing: border-box;
+}
+#summary br {
+  clear: both;
+}
+
+#prawa-kolumna div img {
+   width: 30%;
+   margin: 1%;
+   }
+#trzyobrazy div img {
+   width: 30%;
+   margin: 1%;
+   }
+#dwaobrazy div img {
+   width: 45%;
+   margin: 1%;
+   }
+#logo div img {
+	float:center;
+   width: 80%;
+   margin-left: 5%;
+   margin-right: 5%;
+   margin-top: 3px;
+   }
+   
+
+
+#headline {
+  padding: 0.8em;
+  
+  font-family: Oswald; font-weight: 200;font-size: 15px;color: black
+  
+  }
+* {
+margin: 0;
+padding: 0;
+}
+.css_anchor_gallery {
+width: 700px;    
+overflow: hidden;
+padding: 5px 0;
+}
+.css_anchor_gallery .pictures_ {
+list-style-type: none;
+height: 640px; /* wysokosc najwyzszego zdjecia + ewentualnego opisu lub innych elementow */
+width: 690px; /* szerokosc najszerszego zdjecia */
+overflow: hidden;
+float: center;
+margin: 0;
+padding: 0;
+text-align: center;
+}
+.css_anchor_gallery .pictures_ li {
+margin: 0;
+padding: 3px 0 20000px 0;
+background: none;
+}
+.css_anchor_gallery .pictures_ li p {
+padding: 0 20px;
+}
+.css_anchor_gallery img {
+border: 1px solid #000;
+}
+.css_anchor_gallery .thumbnails_ {
+list-style-type: none;
+width: 120px;
+overflow: auto;
+height: 700px;
+float: center;
+padding: 0;
+margin: 5px 0 0 5px;
+}
+.css_anchor_gallery .thumbnails_ li {
+margin: 3px 0;
+background: none;
+padding: 0;
+}
+.css_anchor_gallery .thumbnails_ li:first-child {
+margin: 0 0 5px 0;    
+}
+.css_anchor_gallery a {
+display: inline;
+width: 100px;
+height: 85px;
+}
+.css_anchor_gallery a img {
+height: 80px;
+width: 96px;
+margin: 0;
+}
+#weather_widget{
+var api_key = 'd0ae6b21ababa0c5bd70c93fad53d880';
+results.loadhtml('http://api.openweathermap.org/data/2.5/weather?q=Montreal&mode=html&appid=' + d0ae6b21ababa0c5bd70c93fad53d880);
+}
+
+
+
+
+.function displayWindow(url, width, height) {
+
+        var Win = window.open(url,"displayWindow",'width=' + width + ',height=' + height + ',left=10,resizable=no,scrollbars=yes,menubar=no' );
+
+}
