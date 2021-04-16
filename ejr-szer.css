@@ -91,6 +91,11 @@ justify-content: space-between
   background-color: #ffc;
   font-size: 18px;
 }
+.licencja {
+   padding: 3px; 
+  width: 115px;
+  font-size: 12px;
+}
 #opinia {
 	 color:green;
  width: 700px;
